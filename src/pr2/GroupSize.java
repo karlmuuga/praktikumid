@@ -11,7 +11,6 @@ public class GroupSize {
 
 		System.out.println("Kui suured on teie grupid?");
 		int suurus = TextIO.getlnInt();
-		//commit
 		System.out.println(arv + " inimesest on võimalik moodustada " + (arv/suurus) + " rühma, kusjuures üle jääb " + (arv%suurus) + " inimest.");
 
 	}
