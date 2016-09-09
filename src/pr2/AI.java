@@ -17,7 +17,7 @@ public class AI {
 		else if(Math.abs(age1-age2) > 10)
 			System.out.println("Sind oodatakse Paldiski maantee 52 kliinikus!");
 		else if(Math.abs(age1-age2) < 5)
-			System.out.println("Äkki soovid kohvile minna?");
+			System.out.println("Äkki läheme kohvile?");
 			
 	}
 }
