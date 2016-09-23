@@ -46,7 +46,7 @@ public class Tsyklid {
 		// Tabel vol 2
 
 		
-		 System.out.println("Millises möödus tabeli genereerin?"); 
+		 TextIO.putln("Millises möödus tabeli genereerin?"); 
 		 int k6rgus = TextIO.getlnInt();
 		 for (i = 1; i <= (2 * k6rgus + 3); i++) System.out.print("-");
 		 System.out.print("\r\n");
@@ -63,7 +63,7 @@ public class Tsyklid {
 		 
 
 		// Tabel vol 3
-		System.out.println("Millises möödus tabeli genereerin?"); 
+		TextIO.putln("Millises möödus tabeli genereerin?"); 
 		int tabelisuurus = TextIO.getlnInt();
 		for (i = 0; i < tabelisuurus; i++) {
 			int k = i;
