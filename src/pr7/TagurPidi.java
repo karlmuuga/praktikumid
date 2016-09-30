@@ -6,9 +6,7 @@ public class TagurPidi {
 
 	public static void main(String[] args) {
 		TextIO.putln("Palun sisesta sõna!");
-		String s = TextIO.getlnString();
-		System.out.println(new StringBuilder(s).reverse().toString());
-
+		TextIO.putln(new StringBuilder(TextIO.getlnString()).reverse().toString());
 	}
 
 }

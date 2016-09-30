@@ -7,8 +7,8 @@ public class KullKiriPanus {
 		int raha = 100;
 
 		while (raha > 0) {
-
-			int panus = Methods.kasutajaSisestus("Kui palju soovid panustada?", 1, 25);
+			
+			int panus = Methods.kasutajaSisestus("Kui palju soovid panustada?", 1, Math.min(25, raha));
 			raha -= panus;
 			int mynt = Methods.suvakas(0, 1);
 			if (mynt == 1) {
