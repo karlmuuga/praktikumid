@@ -3,10 +3,12 @@ package pr6;
 public class ViisTk {
 
 	public static void main(String[] args) {
-		massiiv = new int[5];
-		for (int i = 1; i <= 5; i++) {
-			int[] massiiv = Methods.suvakas(1, 6);
-		}
+		
+		int a = 0, i;
+		for(i = 0 ; i < 5 ; i++)
+			a += Methods.suvakas(1, 6);
+		
+		System.out.println("Summa oli "+a);
 	}
 
 }
