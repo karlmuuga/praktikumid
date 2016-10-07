@@ -13,9 +13,9 @@ public class Neljas {
 			int mynt = Methods.suvakas(1, 6);
 			if (mynt == t2ring) {
 				raha += panus * 2;
-				System.out.println("Sa võitsid! Nüüd on jääk "+raha);
+				System.out.println("Sa võitsid! Nüüd on jääk " + raha);
 			} else {
-				System.out.println("Sa kaotasid :(.. Nüüd on jääk "+raha);
+				System.out.println("Sa kaotasid :(.. Nüüd on jääk " + raha);
 			}
 		}
 	}

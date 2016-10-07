@@ -45,25 +45,31 @@ public class Tsyklid {
 
 		// Tabel vol 2
 
-		
-		 TextIO.putln("Millises möödus tabeli genereerin?"); 
-		 int k6rgus = TextIO.getlnInt();
-		 for (i = 1; i <= (2 * k6rgus + 3); i++) System.out.print("-");
-		 System.out.print("\r\n");
-		 
-		 for (i = 0; i < (k6rgus); i++) { System.out.print("| ");
-		 
-		 for (int j = 0; j < k6rgus; j++) {
-		 
-		 if (i == j || j == (k6rgus - i - 1)) System.out.print("x "); else
-		 System.out.print("0 "); } System.out.print("| \r\n"); }
-		 
-		 for (i = 1; i <= (2 * k6rgus + 3); i++) System.out.print("-");
-		 System.out.print("\r\n\r\n");
-		 
+		TextIO.putln("Millises möödus tabeli genereerin?");
+		int k6rgus = TextIO.getlnInt();
+		for (i = 1; i <= (2 * k6rgus + 3); i++)
+			System.out.print("-");
+		System.out.print("\r\n");
+
+		for (i = 0; i < (k6rgus); i++) {
+			System.out.print("| ");
+
+			for (int j = 0; j < k6rgus; j++) {
+
+				if (i == j || j == (k6rgus - i - 1))
+					System.out.print("x ");
+				else
+					System.out.print("0 ");
+			}
+			System.out.print("| \r\n");
+		}
+
+		for (i = 1; i <= (2 * k6rgus + 3); i++)
+			System.out.print("-");
+		System.out.print("\r\n\r\n");
 
 		// Tabel vol 3
-		TextIO.putln("Millises möödus tabeli genereerin?"); 
+		TextIO.putln("Millises möödus tabeli genereerin?");
 		int tabelisuurus = TextIO.getlnInt();
 		for (i = 0; i < tabelisuurus; i++) {
 			int k = i;

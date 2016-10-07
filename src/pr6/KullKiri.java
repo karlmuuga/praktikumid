@@ -9,11 +9,11 @@ public class KullKiri {
 		int vise = Methods.suvakas(0, 1);
 		TextIO.putln("Kasutaja pakkus " + k);
 		TextIO.putln("Arvuti pakkus " + vise);
-		if(vise != k)
+		if (vise != k)
 			TextIO.putln("Kahjuks kaotasid :(");
 		else
 			TextIO.putln("Võitsid!");
-			
+
 	}
 
 }
