@@ -9,8 +9,8 @@ public class KuuluJutt {
 		String[] mees = new String[] { "Joonas", "John", "Artur" };
 		String[] verb = new String[] { "sebivad", "tülitsevad", "panevad leivad ühte kappi" };
 
-		System.out.println(naine[Methods.suvakas(0, 2)] + " ja " + mees[Methods.suvakas(0, 2)] + " "
-				+ verb[Methods.suvakas(0, 2)]);
+		System.out.format("%s ja %s %s", naine[Methods.suvakas(0, 2)], mees[Methods.suvakas(0, 2)],
+				verb[Methods.suvakas(0, 2)]);
 	}
 
 }
