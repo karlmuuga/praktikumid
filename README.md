@@ -1,6 +1,4 @@
 # praktikumid
-Tere.
+Hello.
 
-Oled sattunud Karl-Hendrik Muuga Java praktikumide projektile.
-
-Siin sünkroniseeritakse kogu praktikumioe kood lihtsamaks haldamiseks ja parema ligipääsu tagamiseks.
+This is the place where I submit the code from my Java intro course.
