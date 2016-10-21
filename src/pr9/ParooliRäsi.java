@@ -1,6 +1,6 @@
 package pr9;
 
-import org.apache.commons.codec.digest.DigestUtils;
+//import org.apache.commons.codec.digest.DigestUtils;
 
 public class ParooliRäsi {
 	public static void main(String[] args) {
@@ -10,9 +10,7 @@ public class ParooliRäsi {
 
 		String parool;
 
-		while (r2si.equals(getMd5Digest(parool))) {
-
-		}
+		//while (r2si.equals(getMd5Digest(parool)))
 
 	}
 
