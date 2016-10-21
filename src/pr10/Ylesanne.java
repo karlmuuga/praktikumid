@@ -55,7 +55,12 @@ public class Ylesanne {
 			else
 				arvud.add(s);
 		}
-
+		int si = arvud.size();
+		int massiiv[][] = new int[arvud.size()][arvud.size()];
+		int n = 0;
+		for (Integer arv : arvud) {
+			massiiv[n][0] = 5;
+		}
 
 		return "korras";
 	}
