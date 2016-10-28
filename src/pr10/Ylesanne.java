@@ -118,4 +118,7 @@ public class Ylesanne {
 		return "korras";
 	}
 
+	// astenda(2, 3) = 2³ = 8
+	// astenda(5, 2) = 5² = 25
+
 }
