@@ -40,6 +40,11 @@ public class Massiivid {
 			case "7":
 				tryki(kahegaJaakMaatriks(10, 10));
 				break;
+				
+			case "8":
+				int[][] maatriks = {{1,2},{3,4},{5,6}};
+				tryki(transponeeri(maatriks));
+				break;
 
 			default:
 				TextIO.putln("Nägemist!");
@@ -130,8 +135,15 @@ public class Massiivid {
 	}
 
 	public static int[][] transponeeri(int[][] maatriks) {
-
-		return maatriks;
+		
+		int[][] vastus = new int[maatriks[0].length][maatriks.length];
+		
+		for(int rida = 0 ; rida < maatriks[0].length ; rida++){
+			for(int veerg = 0; veerg < maatriks.length ; veerg++)
+				vastus[rida][veerg] = maatriks[veerg][rida];
+		}
+		
+		return vastus;
 	}
 
 }
