@@ -25,7 +25,7 @@ public class Viisnurk2 extends Applet {
         g.fillRect(0, 0, w, h);
 
         // Joonistame
-        g.setColor(Color.black);
+        g.setColor(Color.red);
 
         for (t = 1.9; t <= 2 * tiirudeArv * Math.PI+1.9; t = t + 2 * tiirudeArv * Math.PI / sammudeArv) {
             x = (int) (raadius * Math.cos(t + t0) + x0);
@@ -43,7 +43,7 @@ public class Viisnurk2 extends Applet {
     }
     
 	public void joonistaRing(Graphics g) {
-		g.setColor(Color.black);
+		g.setColor(Color.red);
 		int keskkohtX = 150;
 		int keskkohtY = 150;
 		int raadius = 102;
